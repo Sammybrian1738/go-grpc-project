@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sammybrian/go/src/github.com/sammybrianPLP/go-grpc-project/go-grpc-api-gateway'
+protoc pkg/**/pb/*.proto --go_out=plugins=grpc:.
+make: Leaving directory '/home/sammybrian/go/src/github.com/sammybrianPLP/go-grpc-project/go-grpc-api-gateway'
+ 
